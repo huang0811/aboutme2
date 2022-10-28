@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>職涯測驗結果</title>
+
+	<style type="text/css">
+		* { 
+			font-family: "標楷體"; }
+
+		header { 
+			font-size: 36px;
+			color: white; }
+
+		.col-lg-4 {
+			border: 1px solid; }
+
+	</style>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+</head>
+<body>
+	<nav class="navbar navbar-expand-md bg-primary navbar-light">
+	<a class="navbar-brand" href="#">選單</a>
+
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+
+	<div class="collapse navbar-collapse" id="collapsibleNavbar">
+		<ul class="navbar-nav">
+			<li class="nav-item"><a class="nav-link" href="#UCAN">興趣何倫碼</a></li>
+			<li class="nav-item"><a class="nav-link" href="#personality">我的靈魂</a></li>
+			<li class="nav-item"><a class="nav-link" href="#learn">適合的學群</a></li>
+              		</ul>
+	</div>
+	</nav>
+
+	<main class="container-fluid bg-info text-white text-center">
+
+		<nav>
+			<h1><a class="text-reset text-decoration-none text-light bg-success" target="_blank" id="COMPANY">黃鈺慈職涯測驗結果</a></h1>
+		</nav>
+
+		<img src="https://www1.pu.edu.tw/~s1100393/CSP/321.png" width="40%" id="pic"></img>
+		<br><br><br>
+
+		<div class="row">
+			<session id="UCAN" class="col-lg-4">
+				<header><a href="https://guide.104.com.tw/interest/SR?utm_source=104&utm_medium=blackbar2&utm_campaign=giver" class="text-reset text-white bg-success">興趣何倫碼</header>
+				<img src="https://www1.pu.edu.tw/~s1100393/CSP/123.png" width="100%" id="pic"></img> 
+			</session>
+
+			<article id="personality" class="col-lg-4">
+				<header><a href="https://guide.104.com.tw/interest/SR?utm_source=104&utm_medium=blackbar2&utm_campaign=giver" class="text-reset text-white bg-success">我的靈魂</header> 
+				<img src="https://www1.pu.edu.tw/~s1100393/CSP/135.jpg" width="100%" id="pic"></img> 
+			</article>
+			
+			<aside id="learn" class="col-lg-4">
+				<header><a href="https://guide.104.com.tw/interest/SR?utm_source=104&utm_medium=blackbar2&utm_campaign=giver" class="text-reset text-white bg-success">
+				適合的學群</a></header>
+				<img src="https://www1.pu.edu.tw/~s1100393/CSP/1235.jpg" width="100%" id="pic"></img> 
+			</aside>
+		</div><br><br>
+		
+		<footer>
+			Copyright © 黃鈺慈. All Rights Reserved.
+		</footer>
+		
+	</main>
+</body>
+</html>
